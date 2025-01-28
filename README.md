@@ -1,5 +1,10 @@
 # Setup Notes
 
-1. Create new folder and run `npm init -y` in it.
-2. Add vitepress `npm add -D vitepress`
-3. Run `npm run docs:dev`
+```bash
+mkdir my-new-vitepress-demo
+cd my-new-vitepress-demo
+npm init -y
+npm add -D vitepress
+npx vitepress init
+npm run docs:dev
+```
